@@ -73,7 +73,7 @@ body *{
 
 }
 
-.textfield> input{
+.textfield> input {
     width: 100%;
     border: none;
     border-radius: 10px;
@@ -84,14 +84,15 @@ body *{
      box-shadow:0px 10px 40px #00000056;
      outline: none;
      box-sizing: border-box;
+     opacity: 0.5;
 }
 
-.textfield>label{
+.textfield>label {
     color:#f0ffffde;
     margin: bottom 10px;
 
 }
- .textfield>input::placeholder{
+ .textfield>input:placeholder {
     color: #f0ffff94;
 
  }
@@ -108,7 +109,7 @@ body *{
     background: #00ff88;
     color:#2b134b;  
     cursor: pointer;
-    box-shadow: 0px 10px 40px -12px #00ff8052;
+    box-shadow: 0px 10px 40px -12px #00ff8052; 
 
 
  }
@@ -120,20 +121,20 @@ body *{
  }
 
  @media only screen and (max-width:600px){
-    .main-login{
+.main-login{
         flex-direction: column;
 
     }
-    .left-login>h1{
+.left-login>h1{
         display: none;
 
     }
-    .left-login{
+.left-login{
         width: 100%;
         height: auto;
 
     }
-    .right-login{
+.right-login{
         width: 100%;
         height: auto;
  }
